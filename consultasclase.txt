@@ -1,0 +1,8 @@
+1-cuantos correos son de hotmail
+select count(email) from clientes where email like '%hotmail%';
+
+2-cuantos correos son de apple
+select count(email) from clientes where email like '%icloud%';
+
+3-numero de personas que se apellidan smith
+select count(nombre) from clientes where nombre like '%Smith%';
